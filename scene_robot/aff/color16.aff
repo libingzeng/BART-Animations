@@ -1,0 +1,4 @@
+%Relective color of robot, like cylinders
+%For ordinary scan-line rendering (not raytracing) change 'texturer105' to 'texturer103'
+%for all textures using color16
+fm 0.7352941 0.7352941 0.7352941  0.3 0.3 0.3  0.8666667 0.8666667 0.8588235  19.921875 0.0 0.0

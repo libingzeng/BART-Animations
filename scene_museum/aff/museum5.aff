@@ -1,0 +1,36 @@
+% BART: museum5.aff
+% Polygons: 10143
+% Spheres:  0
+% Cones:    8
+% Anim Tris:1024
+
+b 0.5 0.5 1.0
+v
+from 0 1.6 -6
+at 0 1.6 0
+up 0 1 0
+angle 45
+hither 0.1
+resolution 800 600
+l -4 4.5 0 0.5 0.5 0.5
+l  4 4.5 0 0.5 0.5 0.5
+
+i 0 room.aff
+
+fm 0.4 0.4 0.4 
+   0.2 0.2 0.2
+   0.5 0.5 0.5
+   50 0.0 0
+i 0 pillar.aff
+i 0 block.aff
+
+i 0 paintings.aff
+
+fm 0.25 0.15 0.15 
+   0.4 0.25 0.1 
+   0.6 0.6 0.40 
+   20 0 0
+i 0 animart5.aff
+
+a -1.0 5.0 300  % the last number is the number of frames
+i 0 camera.aff

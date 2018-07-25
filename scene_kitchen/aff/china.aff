@@ -1,0 +1,67 @@
+xs 10 10 10
+   0 1 0 90
+   2.29 0 1.07
+{
+  i 0 china_glass_bowl.aff
+}
+
+xs 10 10 10
+   0 1 0 90
+   2.52 0 1.45
+{
+   i 0 china_plate.aff
+}
+
+xs 10 10 10
+    0 1 0 90
+   2.36 0 1.54
+{
+  i 0 china_glass.aff
+}
+
+
+xs 10 10 10
+   0 1 0 90
+   2.06 0 0.65
+{
+   i 0 china_plate.aff
+}
+
+xs 10 10 10
+    0 1 0 90
+   2.21 0 0.75
+{
+  i 0 china_glass.aff
+}
+
+
+xs 10 10 10
+   0 1 0 90
+   2.51 0 0.66
+{
+   i 0 china_plate.aff
+}
+
+xs 10 10 10
+    0 1 0 90
+   2.31 0 0.63
+{
+  i 0 china_glass.aff
+}
+
+
+xs 10 10 10
+   0 1 0 90
+   2.05 0 1.45
+{
+   i 0 china_plate.aff
+}
+
+xs 10 10 10
+    0 1 0 90
+   2.23 0 1.46
+{
+  i 0 china_glass.aff
+}
+
+

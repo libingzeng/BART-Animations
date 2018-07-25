@@ -1,0 +1,325 @@
+i 0 param_wood.aff
+
+#cupboard, upper, first from left
+xs 1.0 1.0 1.0
+   0.0 1.0 0.0 90.0
+   2.52 1.87 3.805
+{
+   i 0 cupboard_box_small.aff
+}
+
+#cupboard, upper, second from left
+xs 1.0 1.0 1.0
+   0.0 1.0 0.0 90.0
+   1.92 1.87 3.805
+{
+   i 0 cupboard_box_small.aff
+}
+
+#cupboard, upper, third from left
+xs 1.0 1.0 1.0
+   0.0 1.0 0.0 90.0
+   1.32 1.87 3.805
+{
+   i 0 cupboard_box_small.aff
+}
+
+#cupboard, upper, fourth from left
+xs 1.0 1.0 1.0
+   0.0 1.0 0.0 90.0
+   0.72 1.87 3.805
+{
+   i 0 cupboard_box_small.aff
+}
+
+#cupboard, lower, first from left
+xs 1.0  1.0  1.0
+   0.0  1.0  0.0  90.0
+   2.52 0.22 3.805
+{
+   i 0 cupboard_box_large.aff
+}
+
+#cupboard, lower, second from left
+xs 1.0 1.0 1.0
+   0.0 1.0 0.0 90.0
+   0.72 0.22 3.805
+{
+   i 0 cupboard_box_large.aff
+}
+
+
+
+#door, cupboard, upper, first from left
+xs 1.0 1.0 1.0
+   0.0 1.0 0.0 90.0
+   4.42 2.285 3.6212497
+{
+   i 0 cupboard_door_small.aff
+}
+
+#door, cupboard, upper, second from left
+xs 1.0 1.0 1.0
+   0.0 1.0 0.0 90.0
+   3.82 2.285 3.6212497
+{
+   i 0 cupboard_door_small.aff
+}
+
+
+#door, cupboard, upper, third from left
+xs 1.0 1.0 1.0
+   0.0 1.0 0.0 90.0
+   3.22 2.285 3.6212497
+{
+   i 0 cupboard_door_small.aff
+}
+
+#door, cupboard, upper, fourth from left
+xs 1.0 1.0 1.0
+   0.0 1.0 0.0 90.0
+   2.62 2.285 3.6212497
+{
+   i 0 cupboard_door_small.aff
+}
+
+#door, cupboard, lower, first from left
+xs 1.0 1.0 1.0
+   0.0 1.0 0.0 90.0
+   4.42 0.635 3.6212497
+{
+   i 0 cupboard_door_large.aff
+}
+
+
+#door, cupboard, lower, second from left
+xs 1.0 1.0 1.0
+   0.0 1.0 0.0 90.0
+   2.62 0.635 3.6212497
+{
+   i 0 cupboard_door_large.aff
+}
+ 
+
+#cupboard list, first from left
+xs 1.0 1.0 1.0
+   0.0 0.0 1.0 0.0
+   4.32 0.08 3.71
+{
+   i 0 support1.aff
+}
+
+
+#cupboard list, second from left, front
+xs 1.0 1.0 1.0
+   0.0 0.0 1.0 0.0
+   2.52 0.08 3.71
+{
+   i 0 support1.aff
+}
+
+#cupboard list, second from left, side
+xs 1.0 1.0 1.0
+   0.0 1.0 0.0 90.0
+   2.22 0.08 4.01
+{
+   i 0 support2.aff
+}
+
+
+
+
+#handle, cupboard, upper, first from left
+xs 1.0 1.0 1.0
+   0.0 1.0 0.0 90.0
+   4.045 0.245 4.035
+{
+   i 0 handle.aff
+}
+
+
+
+#handle, cupboard, upper, second from left
+xs 1.0 1.0 1.0
+   0.0 1.0 0.0 90.0
+   3.445 0.245 4.035
+{
+   i 0 handle.aff
+}
+
+
+#handle, cupboard, upper, third from left
+xs 1.0 1.0 1.0
+   0.0 1.0 0.0 90.0
+   3.4 0.245 4.035
+{
+   i 0 handle.aff
+}
+
+
+
+
+#handle, cupboard, upper, fourth from left
+xs 1.0 1.0 1.0
+   0.0 1.0 0.0 90.0
+   2.245 0.245 4.035
+{
+   i 0 handle.aff
+}
+
+
+
+
+
+
+#handle, cupboard, lower, first from left
+xs 1.0 1.0 1.0
+   0.0 1.0 0.0 90.0
+   4.045 -0.655 4.035
+{
+   i 0 handle.aff
+}
+
+
+
+
+
+
+#handle, cupboard, lower, second from left
+xs 1.0 1.0 1.0
+   0.0 1.0 0.0 90.0
+   2.245 -0.655 4.035
+{
+   i 0 handle.aff
+}
+
+
+
+
+
+#fridge, left
+xs 1.0 1.0 1.0
+   0.0 0.0 1.0 0.0
+   3.72 0.825 3.92
+{
+   i 0 fridge_box.aff
+}
+
+#fridge door, left
+xs 1.0 1.0 1.0
+   0.0 1.0 0.0 90.0
+   3.82 0.635 3.6112497
+{
+   i 0 fridge_door.aff
+}
+
+
+#fridge, list
+xs 1.0 1.0 1.0
+   0.0 0.0 1.0 0.0
+   3.72 0.08 3.71
+{
+   i 0 support3.aff
+}
+
+
+#fridge door, right
+xs 1.0 1.0 1.0
+   0.0 1.0 0.0 90.0
+   3.22 0.635 3.6112497
+{
+   i 0 fridge_door.aff
+}
+
+
+#fridge, right
+xs 1.0 1.0 1.0
+   0.0 0.0 1.0 0.0
+   3.12 0.825 3.92
+{
+   i 0 fridge_box.aff
+}
+
+
+
+#fridge handle, left
+xs 1.0 1.0 0.35
+   0.0 0.0 1.0 180.0
+   3.46 0.85 3.57
+{
+   i 0 fridge_handle.aff
+}
+
+#fridge handle, left, upper metal1
+xs 0.5 1.0 1.0
+   0.382683 -0.0 0.92388 180.0
+   3.4409096 0.9 3.5880542
+{
+   i 0 fridge_handle_metal1.aff
+}
+
+#fridge handle, left, upper metal2
+xs 0.5 1.0 1.0
+   0.707107 -0.0 0.707107 180.0
+   3.4224644 0.9 3.6039643
+{
+   i 0 fridge_handle_metal2.aff
+}
+
+#fridge handle, left, lower metal1
+xs 0.5 1.0 1.0
+   0.382683 -0.0 0.92388 180.0
+   3.4409096 0.8 3.5880542
+{
+   i 0 fridge_handle_metal1.aff
+}
+
+#fridge handle, left, lower metal2
+xs 0.5 1.0 1.0
+   0.707107 -0.0 0.707107 180.0
+   3.4224644 0.8 3.6039643
+{
+   i 0 fridge_handle_metal2.aff
+}
+
+
+
+#fridge, handle, right
+xs 1.0 1.0 0.35
+   0.0 0.0 1.0 0.0
+   3.38 0.85 3.57
+{
+   i 0 fridge_handle.aff
+}
+
+#fridge handle, right, upper, metal1
+xs 0.5 1.0 1.0
+   0.0 -1.0 0.0 45.0
+   3.3990903 0.9 3.5880542
+{
+   i 0 fridge_handle_metal1.aff
+}
+
+#fridge handle, right, upper metal2
+xs 0.5 1.0 1.0
+   0.0 -1.0 0.0 90.0
+   3.4175358 0.9 3.6039643
+{
+   i 0 fridge_handle_metal2.aff
+}
+
+#fridge handle, right, lower, metal1
+xs 0.5 1.0 1.0
+   0.0 -1.0 0.0 45.0
+   3.3990903 0.8 3.5880542
+{
+   i 0 fridge_handle_metal1.aff
+}
+
+#fridge handle, right, lower, metal2
+xs 0.5 1.0 1.0
+   0.0 -1.0 0.0 90.0
+   3.4175358 0.8 3.6039643
+{
+   i 0 fridge_handle_metal2.aff
+}
