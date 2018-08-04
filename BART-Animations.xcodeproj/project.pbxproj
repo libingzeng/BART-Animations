@@ -90,6 +90,7 @@
 		7D530EC220D203AD003893A6 /* FM_SV_Phong.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D530EBF20D203AD003893A6 /* FM_SV_Phong.cpp */; };
 		7D530EC320D203AD003893A6 /* FM_SV_Dielectric.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D530EC020D203AD003893A6 /* FM_SV_Dielectric.cpp */; };
 		7D530EC420D203AD003893A6 /* FM_SV_Reflective.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D530EC120D203AD003893A6 /* FM_SV_Reflective.cpp */; };
+		7D65F3692115F1B000FC78F7 /* ThinLens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D65F3682115F1B000FC78F7 /* ThinLens.cpp */; };
 		7D94F38120DFC34300465701 /* Vector2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D94F38020DFC34200465701 /* Vector2D.cpp */; };
 		7DBB22A420BC0C3800BB3537 /* parse.c in Sources */ = {isa = PBXBuildFile; fileRef = 7DBB22A320BC0C3700BB3537 /* parse.c */; };
 		7DBB22A620BC0C9C00BB3537 /* animation.c in Sources */ = {isa = PBXBuildFile; fileRef = 7DBB22A520BC0C9B00BB3537 /* animation.c */; };
@@ -293,6 +294,8 @@
 		7D530EBF20D203AD003893A6 /* FM_SV_Phong.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FM_SV_Phong.cpp; sourceTree = "<group>"; };
 		7D530EC020D203AD003893A6 /* FM_SV_Dielectric.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FM_SV_Dielectric.cpp; sourceTree = "<group>"; };
 		7D530EC120D203AD003893A6 /* FM_SV_Reflective.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FM_SV_Reflective.cpp; sourceTree = "<group>"; };
+		7D65F3672115F1A300FC78F7 /* ThinLens.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ThinLens.hpp; sourceTree = "<group>"; };
+		7D65F3682115F1B000FC78F7 /* ThinLens.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ThinLens.cpp; sourceTree = "<group>"; };
 		7D66406C20C00241007229C1 /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
 		7D6C970220E7A4D60082CD78 /* GlobalVariable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalVariable.h; sourceTree = "<group>"; };
 		7D94F38020DFC34200465701 /* Vector2D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector2D.cpp; sourceTree = "<group>"; };
@@ -442,6 +445,7 @@
 		7D03E97F20D1EB7F00CB39AB /* camera */ = {
 			isa = PBXGroup;
 			children = (
+				7D65F3672115F1A300FC78F7 /* ThinLens.hpp */,
 				7D34251020AC16FC00801BFA /* Pinhole.h */,
 				7D3424F020AC16F900801BFA /* Camera.h */,
 			);
@@ -580,6 +584,7 @@
 		7D03E98820D1F09400CB39AB /* camera */ = {
 			isa = PBXGroup;
 			children = (
+				7D65F3682115F1B000FC78F7 /* ThinLens.cpp */,
 				7D34258820AC170F00801BFA /* Camera.cpp */,
 				7D3425B720AC171700801BFA /* Pinhole.cpp */,
 			);
@@ -918,6 +923,7 @@
 				7DD8666320F08522003E5DC3 /* MitchellFilter.cpp in Sources */,
 				7D34260C20AC171800801BFA /* SmoothUVMeshTriangle.cpp in Sources */,
 				7D34261B20AC171800801BFA /* Plane.cpp in Sources */,
+				7D65F3692115F1B000FC78F7 /* ThinLens.cpp in Sources */,
 				7D34260120AC171800801BFA /* Mesh.cpp in Sources */,
 				7D34261E20AC171800801BFA /* GeometricObject.cpp in Sources */,
 				7D3425CF20AC171800801BFA /* Triangle.cpp in Sources */,
