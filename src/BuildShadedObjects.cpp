@@ -1,5 +1,4 @@
 #include "World.h"
-#include "Pinhole.h"
 #include "PointLight.h"
 #include "Whitted.h"
 #include "FM_SV_Phong.h"
@@ -14,6 +13,11 @@
 #include "MitchellFilter.h"
 #include "BoxFilter.h"
 #include "OpenCylinder.h"
+#if CAMERA_TYPE == 0//pin hole
+#include "Pinhole.h"
+#elif CAMERA_TYPE == 1//thin lens
+#include "ThinLens.hpp"
+#endif//CAMERA_TYPE
 
 void
 World::build(void) {
@@ -67,7 +71,16 @@ World::build(void) {
     }
 #endif
     
+
+#if CAMERA_TYPE == 0//pin hole
     Pinhole* pinhole_ptr = new Pinhole;
+#elif CAMERA_TYPE == 1//thin lens
+    ThinLens* thinlens_ptr = new ThinLens;
+    thinlens_ptr->set_sampler(new MultiJittered(num_samples));
+    thinlens_ptr->set_lens_radius(0.1);//0.1 for museum200 test
+    thinlens_ptr->set_focal_distance(3.75);//3.75 for museum200 test
+#endif//CAMERA_TYPE
+
     Vector3D eye = Vector3D(viewpoint->from[0], viewpoint->from[1], viewpoint->from[2]);
     Vector3D lookat = Vector3D(viewpoint->lookat[0], viewpoint->lookat[1], viewpoint->lookat[2]);
     Vector3D r_eye = Vector3D(eye.x, eye.y, eye.z);
@@ -83,17 +96,27 @@ World::build(void) {
     }
     if(dir_flag == 1){
         r_lookat = Vector3D(r_eye.x+dir[0], r_eye.y+dir[1], r_eye.z+dir[2]);
+#if CAMERA_TYPE == 0//pin hole
         pinhole_ptr->set_up_vector(Vector3D(up[0], up[1], up[2]));
+#elif CAMERA_TYPE == 1//thin lens
+        thinlens_ptr->set_up_vector(Vector3D(up[0], up[1], up[2]));
+#endif//CAMERA_TYPE
     }
 #endif//BART_ANIMATION
     
+#if CAMERA_TYPE == 0//pin hole
     pinhole_ptr->set_eye(r_eye.x, r_eye.y, r_eye.z);
     pinhole_ptr->set_lookat(r_lookat.x, r_lookat.y, r_lookat.z);
-    //    pinhole_ptr->set_eye(0, 80, 0); //for test
-    //    pinhole_ptr->set_lookat(-40, 0, 0);//for test
     pinhole_ptr->set_view_distance(distance);//2000
     pinhole_ptr->compute_uvw();
     set_camera(pinhole_ptr);
+#elif CAMERA_TYPE == 1//thin lens
+    thinlens_ptr->set_eye(r_eye.x, r_eye.y, r_eye.z);
+    thinlens_ptr->set_lookat(r_lookat.x, r_lookat.y, r_lookat.z);
+    thinlens_ptr->set_view_distance(distance);//2000
+    thinlens_ptr->compute_uvw();
+    set_camera(thinlens_ptr);
+#endif//CAMERA_TYPE
     
     LightList * ll = mlightlist;
     while(ll != 0){

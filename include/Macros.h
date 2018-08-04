@@ -76,6 +76,10 @@
 #define SMART_POINTER_USED 1
 #define HIERARCHY_GRIDS 1
 
+#define CAMERA_TYPE 0
+//0:pin hole
+//1:thin lens
+
 #endif//RENDERING_ENABLED//-----------------end----------------
 
 #endif /* Macros_h */

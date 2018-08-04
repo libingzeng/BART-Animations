@@ -206,8 +206,8 @@ int main(int argc, const char * argv[]) {
     double start_time = animationparam->start_time;
     double end_time = animationparam->end_time;
     double anim_time = end_time - start_time;
-    int max_cnt = num_keyframe;//robots:20, 210, 320, 457, 557; kitchen:599
-    for(g_cnt=1; g_cnt<=max_cnt; g_cnt++){
+    int max_cnt = 200;//robots:20, 210, 320, 457, 557; kitchen:599
+    for(g_cnt=200; g_cnt<=max_cnt; g_cnt++){
         g_time = start_time + anim_time * (g_cnt - 1) / (num_keyframe - 1);
         //total number of time periods is equal to (num_keyfram - 1)
         //for Robot scene, g_cnt = 673~675, something goes wrong.
