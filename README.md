@@ -1,4 +1,6 @@
 # BART-Animations
+This project was advised by [Dr. Li-Yi Wei](http://www.liyiwei.org/)
+
 This renderer mainly has two components. First, parsing animation description files (AFF); Second, rendering the three animations of BART.  
 
 There are three animation scenes that are Kitchen, Robot and Museum.   
@@ -27,7 +29,7 @@ Other default settings are as follows:
 "Multi-Jittered" sampler +   "Gaussian" filter for reconstruction +   Mipmap +   EWA filter for texture anti-aliasing.  
 (all of these settings can be modified in ./inculde/Macro.h.  
 
-You can find all of the three animation videos in YouTube.  
+You can find all of the three animation **videos** in YouTube.  
 Kitchen: https://youtu.be/2veK2uj-yFk  
 Robot:   https://youtu.be/yfTIEGcqGfU  
 Museum:  https://youtu.be/U0Dylgw_qUk  
