@@ -43,3 +43,10 @@ when you watch these videos, HD resolution is recommended, especially for Robot 
 
 [museum]:https://github.com/libingzeng/BART-Animations/blob/master/scene_museum/results/Museum217.jpg  
 [![museum]](https://youtu.be/U0Dylgw_qUk)  
+
+These three videos can also be found in YouKu now.
+
+Kitchen: http://v.youku.com/v_show/id_XMzkxMjI4ODY2OA==.html?spm=a2h0j.11185381.listitem_page1.5!2~A  
+Robot:   http://v.youku.com/v_show/id_XMzkxMjMxOTk4MA==.html?spm=a2h3j.8428770.3416059.1  
+Museum:  http://v.youku.com/v_show/id_XMzkxMjMwMDAxNg==.html?spm=a2h0j.11185381.listitem_page1.5!3~A  
+when you watch these videos, HD resolution is recommended, especially for Robot one which includes a lot of high frequency texutures.
