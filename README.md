@@ -3,7 +3,7 @@ This project was advised by [Dr. Li-Yi Wei](http://www.liyiwei.org/).
 
 The results are linked by [Dr. Ulf Assarsson](http://www.cse.chalmers.se/~uffe/) in the his project page of the paper ([BART](http://www.cse.chalmers.se/~uffe/BART/), searching “Libing” in the page will find the links). 
 
-This renderer mainly has two components. First, parsing animation description files (AFF); Second, rendering the three animations of BART.  
+This renderer mainly has two components. First, parsing animation description files (AFF) without using flex and bison; Second, rendering the three animations of BART with much less artifacts than the original ones.  
 
 There are three animation scenes that are Kitchen, Robot and Museum.   
 The scene related files are in its own folder, like scene_kitchen, scene_robot and scene_museum.  
